@@ -38,8 +38,8 @@ public class Aes256Utils {
 
     public static void main(String[] args) throws Exception {
         String plaintext = "Hello World!";
-        String key = "XzBqfR4cCifrgNZ6jV0A5LYUEMvb8lxK"; // 32 bytes key for AES-256
-        String iv = "3ad77bb40d7a3660"; // 16 bytes IV for AES-CBC
+        String key = "xxxxx"; // 32 bytes key for AES-256
+        String iv = "xxxx"; // 16 bytes IV for AES-CBC
 
         String ciphertext = encrypt(plaintext, key, iv);
         System.out.println("Ciphertext: " + ciphertext);

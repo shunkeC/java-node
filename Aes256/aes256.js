@@ -23,8 +23,8 @@ function decrypt(ciphertext, key, iv) {
 }
 
 const plaintext = 'Hello World!';
-const key = 'XzBqfR4cCifrgNZ6jV0A5LYUEMvb8lxK'; // 32 bytes key for AES-256
-const iv = '3ad77bb40d7a3660'; // 16 bytes IV for AES-CBC
+const key = 'xxxx'; // 32 bytes key for AES-256
+const iv = 'xxxx'; // 16 bytes IV for AES-CBC
 
 const ciphertext = encrypt(plaintext, key, iv);
 console.log('Ciphertext: ',ciphertext);
